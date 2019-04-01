@@ -13,7 +13,7 @@ class BankAccount
    end
 
    def display_balance
-     "can display its balance $#{self.balance}."
+     "can display its balance"
    end
 
    def valid?
