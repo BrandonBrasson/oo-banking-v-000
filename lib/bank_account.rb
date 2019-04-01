@@ -13,7 +13,7 @@ class BankAccount
    end
 
    def display_balance
-    puts  "Your Balance is $#{balance}."
+    puts  "Your Balance is $#{avi.balance}."
    end
 
    def valid?
