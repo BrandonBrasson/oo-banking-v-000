@@ -13,45 +13,14 @@ class BankAccount
    end
 
    def display_balance
-    p "Your balance is $#{self.balance}."
+    puts  "Your Balance is $#{self.balance}."
    end
 
    def valid?
      self.balance > 0 && self.status == "open"
    end
 
-  #  if self.balance > 0
-    # return self,balance
-    #  else self.status == "open"
-   #return self.status
-   #end
-#end
-
    def close_account
      self.status = "closed"
    end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 end
